@@ -37,7 +37,7 @@ export default function Footer() {
             <ul className="space-y-3">
               <li className="flex items-center">
                 <MapPin className="w-5 h-5 mr-2 text-zinc-400" />
-                <span>Jaisingh Nagar Delhi By Pass Road , Jaipur m Rajasthan 302027</span>
+                <span>Plot No. 38, Scheme Jai Ganesh Colony , Data Ram Hospital Near Om Colony, Jaisingh Pura Khor, Jaipur - 302027</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-zinc-400" />
@@ -51,10 +51,10 @@ export default function Footer() {
                 <Phone className="w-5 h-5 mr-2 text-zinc-400" />
                 <span>+91-9549823845</span>
               </li>
-              <li className="flex items-center">
+              {/* <li className="flex items-center">
                 <Mail className="w-5 h-5 mr-2 text-zinc-400" />
                 <span>info@dekho.com</span>
-              </li>
+              </li> */}
             </ul>
           </div>
 
