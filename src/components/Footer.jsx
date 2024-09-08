@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-white text-lg font-semibold mb-4">DEKHO</h3>
+            <h3 className="text-white text-lg font-semibold mb-4">Indian Tour & Travels</h3>
             <p className="mb-4">Discover the world with us. Your journey begins here.</p>
             <div className="flex space-x-4">
               <a href="#" className="text-zinc-400 hover:text-white transition-colors">
@@ -46,6 +46,10 @@ export default function Footer() {
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-zinc-400" />
                 <span>+91-9660332163</span>
+              </li>
+              <li className="flex items-center">
+                <Phone className="w-5 h-5 mr-2 text-zinc-400" />
+                <span>+91-8947951450</span>
               </li>
               <li className="flex items-center">
                 <Phone className="w-5 h-5 mr-2 text-zinc-400" />
@@ -86,7 +90,7 @@ export default function Footer() {
 
         {/* Bottom Bar */}
         <div className="mt-8 pt-8 border-t border-zinc-700 text-center">
-          <p>&copy; {currentYear} DEKHO. All rights reserved.</p>
+          <p>&copy; {currentYear} Indian Tour & Travels. All rights reserved.</p>
         </div>
       </div>
     </footer>

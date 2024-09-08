@@ -29,7 +29,7 @@ const Navbar = () => {
           >
             <FaPlaneDeparture className="h-8 w-8 mr-2 text-blue-800 transition-all duration-300 ease-in-out hover:scale-110" />
             <span className="font-light text-xl tracking-tight font-poppins">
-              DEKHO
+              Indian Tour & Travels
             </span>
           </div>
 
