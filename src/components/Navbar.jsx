@@ -7,11 +7,11 @@ const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
   const navigate = useNavigate();
   const navLinks = [
-    { name: "HOME", href: "#" },
-    { name: "DESTINATIONS", href: "#destinations" },
-    { name: "PACKAGES", href: "#packages" },
-    { name: "ABOUT", href: "#about" },
-    { name: "CONTACT", href: "#contact" },
+    { name: "HOME", href: "/" },
+    { name: "DESTINATIONS", href: "/" },
+    { name: "OUR CARS", href: "/cars" },
+    { name: "ABOUT", href: "/" },
+    { name: "CONTACT", href: "/contact" },
   ];
 
   const toggleMenu = () => {
